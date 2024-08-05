@@ -23,7 +23,9 @@ import { useState } from "react";
 // }
 //30:00
 
-function App() { }
+function App() {
+    return <button className="square">X</button>;
+}
 
 
 export default App;
