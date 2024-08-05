@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { useState } from "react";
+
+
+// function MyButton({ count, event }) {
+//   return <button onClick={event}>CLicked {count} times </button>
+// }
+
+
+
+
+// function App() {
+//   const [count, setCount] = useState(0)
+//   function onhandle() {
+//     setCount(count + 1);
+//   }
+//   return (
+//     <div className="App">
+//       <MyButton count={count} event={onhandle} />
+//       <MyButton count={count} event={onhandle} />
+//     </div>
+//   );
+// }
+//30:00
+
+function App() { }
+
 
 export default App;
